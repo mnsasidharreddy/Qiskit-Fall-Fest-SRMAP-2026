@@ -1,0 +1,3 @@
+processor,compiled_qubits,depth,total_gates,cx_count,swap_count,operation_counts,kernel_pair_count,estimated_compiled_gate_executions,processor_qubits_available
+Processor A,5,48,98,14,0,"{""cx"": 14, ""rz"": 51, ""sx"": 33}",3240,317520,5
+Processor B,9,25,64,8,0,"{""cx"": 8, ""rz"": 32, ""sx"": 24}",3240,207360,9

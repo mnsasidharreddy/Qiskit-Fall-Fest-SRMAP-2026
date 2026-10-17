@@ -1,0 +1,60 @@
+{
+  "project": "QFF 2026 PS-Q2 QSVM",
+  "dataset": {
+    "name": "make_moons",
+    "samples": 100,
+    "features": 2,
+    "noise": 0.1,
+    "random_state": 42,
+    "train_samples": 80,
+    "test_samples": 20
+  },
+  "feature_map": "Chosen 4-qubit angle encoding with H, RY/RZ and ring CX entanglement",
+  "kernel": "Ideal Statevector fidelity kernel",
+  "classification": {
+    "accuracy": 0.95,
+    "precision": 0.9090909090909091,
+    "recall": 1.0,
+    "f1": 0.9523809523809523,
+    "confusion_matrix": [
+      [
+        9,
+        1
+      ],
+      [
+        0,
+        10
+      ]
+    ]
+  },
+  "simulator_kernel_times_seconds": {
+    "train": 0.12425869999970018,
+    "test": 0.12105730000030235
+  },
+  "processor_comparison": [
+    {
+      "processor": "Processor A",
+      "compiled_qubits": 5,
+      "depth": 48,
+      "total_gates": 98,
+      "cx_count": 14,
+      "swap_count": 0,
+      "operation_counts": "{\"cx\": 14, \"rz\": 51, \"sx\": 33}",
+      "kernel_pair_count": 3240,
+      "estimated_compiled_gate_executions": 317520,
+      "processor_qubits_available": 5
+    },
+    {
+      "processor": "Processor B",
+      "compiled_qubits": 9,
+      "depth": 25,
+      "total_gates": 64,
+      "cx_count": 8,
+      "swap_count": 0,
+      "operation_counts": "{\"cx\": 8, \"rz\": 32, \"sx\": 24}",
+      "kernel_pair_count": 3240,
+      "estimated_compiled_gate_executions": 207360,
+      "processor_qubits_available": 9
+    }
+  ]
+}
