@@ -1,0 +1,4 @@
+model,accuracy,precision,recall,f1_score
+Classical Baseline,0.9,0.9,0.9,0.9
+Processor A (simulated low-noise),0.625,0.6316,0.6,0.6154
+Processor B (simulated higher-noise),0.6,0.5909,0.65,0.619

@@ -1,0 +1,8 @@
+
+{
+    "name": "Processor B (simulated higher-noise)",
+    "profile_id": "B",
+    "readout_noise_std": 0.12,
+    "seed_offset": 200,
+    "description": "Higher simulated readout noise for software-based comparison. Not a real hardware processor."
+}
