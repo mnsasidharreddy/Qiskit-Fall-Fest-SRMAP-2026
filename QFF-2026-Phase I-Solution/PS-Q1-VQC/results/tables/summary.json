@@ -1,0 +1,63 @@
+{
+  "problem_statement": "PS-Q1 VQC synthetic-data variant",
+  "dataset": {
+    "samples": 200,
+    "features": 4,
+    "informative": 3,
+    "random_state": 42,
+    "train_samples": 160,
+    "test_samples": 40
+  },
+  "classification_metrics": {
+    "accuracy": 0.775,
+    "precision": 0.8666666666666667,
+    "recall": 0.65,
+    "f1": 0.7428571428571429,
+    "final_training_loss": 0.5401825521397494,
+    "optimizer_success": true,
+    "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+  },
+  "classical_baseline_metrics": {
+    "accuracy": 0.875,
+    "precision": 0.8947368421052632,
+    "recall": 0.85,
+    "f1": 0.8717948717948718
+  },
+  "processor_comparison": [
+    {
+      "processor": "Processor A",
+      "logical_qubits": 4,
+      "physical_qubits": 5,
+      "compiled_qubits": 5,
+      "depth": 13,
+      "total_gates": 38,
+      "cx_count": 6,
+      "swap_count": 0,
+      "operation_counts": {
+        "sx": 16,
+        "rz": 16,
+        "cx": 6
+      }
+    },
+    {
+      "processor": "Processor B",
+      "logical_qubits": 4,
+      "physical_qubits": 9,
+      "compiled_qubits": 9,
+      "depth": 13,
+      "total_gates": 38,
+      "cx_count": 6,
+      "swap_count": 0,
+      "operation_counts": {
+        "sx": 16,
+        "rz": 16,
+        "cx": 6
+      }
+    }
+  ],
+  "transpiler": {
+    "optimization_level": 1,
+    "seed": 42
+  },
+  "note": "Ideal statevector training; compiled resource comparison only; no noisy A/B accuracy claimed."
+}
