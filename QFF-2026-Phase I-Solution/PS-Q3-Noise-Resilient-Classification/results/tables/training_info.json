@@ -1,0 +1,6 @@
+{
+  "training_loss": 0.6045380327678698,
+  "optimizer_success": false,
+  "optimizer_message": "Return from COBYLA because the objective function has been evaluated MAXFUN times.",
+  "iterations": 100
+}

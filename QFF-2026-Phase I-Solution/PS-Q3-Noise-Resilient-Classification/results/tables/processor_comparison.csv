@@ -1,0 +1,3 @@
+processor,ideal_accuracy,noisy_accuracy,mitigated_accuracy,mean_transpiled_depth,mean_cx_count,estimated_mean_swap_overhead,readout_assignment_matrix
+Processor A,0.8,0.825,0.825,14.025,6.0,0.0,"[[0.9892578125, 0.01171875], [0.0107421875, 0.98828125]]"
+Processor B,0.8,0.825,0.825,14.025,6.0,0.0,"[[0.9892578125, 0.01171875], [0.0107421875, 0.98828125]]"
